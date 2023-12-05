@@ -6,6 +6,173 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+.home-image {
+    background-image: url("https://i.postimg.cc/t42xJZVt/Screenshot-2023-12-04-152523.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+.product-image {
+    background-image: url("https://i.postimg.cc/4xYDx3w7/basketball-court-with-wooden-parquet-Graphics-13480167-1-removebg-preview.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .card {
+        width: 18rem;
+    }
 .text-center {
     background-image: url('https://i.postimg.cc/P5yNVHxS/Benefits-of-Basketball-Court-Covers-1024x683.png');
 }
+
+.desktop {
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .group-wrapper {
+    background-color: #3f3f3f;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .desktop .group {
+    position: relative;
+    width: 1361px;
+    height: 660px;
+    top: 206px;
+    left: 40px;
+  }
+  
+  .desktop .div-wrapper {
+    height: 660px;
+  }
+  
+  .desktop .div {
+    position: relative;
+    width: 1361px;
+    height: 660px;
+  }
+  
+  .desktop .group-2 {
+    position: absolute;
+    width: 1361px;
+    height: 274px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .group-3 {
+    position: relative;
+    width: 1363px;
+    height: 274px;
+  }
+  
+  .desktop .group-4 {
+    position: absolute;
+    width: 804px;
+    height: 274px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .SPORTIFY {
+    position: absolute;
+    top: 137px;
+    left: 105px;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper {
+    color: #8f3401;
+  }
+  
+  .desktop .span {
+    color: #ffffff;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .general-information {
+    position: absolute;
+    width: 551px;
+    top: 0;
+    left: 810px;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-5 {
+    position: absolute;
+    width: 452px;
+    height: 133px;
+    top: 527px;
+    left: 456px;
+  }
+  
+  .desktop .logo-NIKE {
+    position: absolute;
+    width: 96px;
+    height: 35px;
+    top: 92px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .element-stubhub {
+    position: absolute;
+    width: 96px;
+    height: 44px;
+    top: 89px;
+    left: 337px;
+    object-fit: cover;
+  }
+  
+  .desktop .group-6 {
+    position: absolute;
+    width: 79px;
+    height: 40px;
+    top: 89px;
+    left: 188px;
+    background-image: url(./img/images-removebg-preview.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
