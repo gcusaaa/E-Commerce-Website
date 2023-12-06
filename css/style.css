@@ -96,9 +96,15 @@
   .desktop .text-wrapper {
     color: #8f3401;
   }
-  
+  .desktop .text-wrapper-11 {
+    color: #8f3401;
+  }
+
   .desktop .span {
     color: #ffffff;
+  }
+  .desktop .span-11 {
+    color: #8f3401;
   }
   
   .desktop .text-wrapper-2 {
@@ -175,4 +181,30 @@
     letter-spacing: 0;
     line-height: normal;
   }
+  .desktop .CONTACT {
+    position: absolute;
+    top: 0;
+    left: 458px;
+    font-family: "Michroma-Regula", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .desktop .overlap-wrappaer {
+    position: absolute;
+    width: 1368px;
+    height: 622px;
+    top: 106px;
+    left: 0;
+  }
+
+  .desktop .overlap {
+    position: relative;
+    height: 622px;
+    border-radius: 20px;
+  }
   
+
