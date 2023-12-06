@@ -110,14 +110,13 @@ function displaySkills(data) {
                 <div class="card-body">
                     <p class="card-text"> ${product.spec}</p>
                     <h5 class="card-title">${product.make}</h5>
-                    <button class="btn btn-primary">Shop now</button> <button class="btn btn-primary">Cart</button>
+                    <button class="btn btn-primary">Shop now</button> <button class="btn btn-primary" onclick= addToCart($)>Cart</button>
                 </div>
             </div>`
         });
     } else {
         skillsWrapper.innerHTML = "Skills not found";
     }
-    
 }
 
 displaySkills(products)
@@ -151,5 +150,6 @@ sorting.addEventListener('click', () => {
     }
 });
 
+let addCart = [];
 
 
