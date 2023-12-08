@@ -110,7 +110,7 @@ function displaySkills(data) {
                 <div class="card-body">
                     <p class="card-text"> ${product.describtion}</p>
                     <h5 class="card-title">${product.price}</h5>
-                    <button class="btn btn-primary" onclick='addToCart(${product.id})'>Cart</button>
+                    <button class="btn btn-primary" onclick='addToCart(${product})'>Cart</button>
                 </div>
             </div>`
         });
@@ -151,17 +151,23 @@ sorting.addEventListener('click', () => {
 });
 
 
-let addCart = [];
+// let addCart = [];
 
-function addToCart(cartItem) {
-    let addItem = products.find((products => product.id === cartItem ));
+// function addToCart(cartItem) {
+//     addCart.push(cartItem)
+//     localStorage.setItem('cart', JSON.stringify(addCart))
+// }
 
-    if (selectedProduct) {
-        addCart.push(cartItem)
-    }
-    
-    localStorage.setItem('cart', JSON.stringify(addCart))
-}
+// let addCart = document.querySelectorAll(`[addToCart]`);
 
+// addCart.forEach(btn =>{
+//     btn.addEventListener('click',function()
+//     {
+//         let product = products[btn.getAttribute('addToCart')];
+//         checkout.push(product);
+//         // Save the updated checkout to localStorage
+//         localStorage.setItem('checkout', JSON.stringify(checkout)); 
+//     })
+// })
 
 
