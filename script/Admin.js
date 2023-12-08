@@ -47,7 +47,6 @@ JSON.parse( localStorage.getItem('products')):
             )
     );  
      
-
 function displayProducts() {
     productsWrapper.innerHTML = "";
     if (products) {
