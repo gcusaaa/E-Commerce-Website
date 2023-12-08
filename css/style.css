@@ -6,6 +6,12 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+body {
+  background: #404040;
+}
+.navbar {
+  background: #404040;
+}
 .home-image {
     background-image: url("https://i.postimg.cc/t42xJZVt/Screenshot-2023-12-04-152523.png");
     height: 100vh;

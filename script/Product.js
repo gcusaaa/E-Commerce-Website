@@ -6,36 +6,36 @@ JSON.parse( localStorage.getItem('products')):
             [
                 {
                     "id": 1,
-                    "make": "R2 999.99",
-                    "spec": "Nike Sneakers",
+                    "price": "R2 999.99",
+                    "describtion": "Nike Sneakers",
                     "amount": 2999.99,
                     "image": "https://i.postimg.cc/TPbShZcq/kd16-basketball-shoes-H3gc-DG-removebg-preview.png"
                 },
                 {
                     "id": 2,
-                    "make": "R1 999.99",
-                    "spec": "Chicago Bulls Jersey",
+                    "price": "R1 999.99",
+                    "describtion": "Chicago Bulls Jersey",
                     "amount": 1999.99,
                     "image": "https://i.postimg.cc/1XXrVFQh/BULLMZ0861-D-removebg-preview.png"
                 },
                 {
                     "id": 3,
-                    "make": "R999.99",
-                    "spec": "Nike NBA Shorts",
+                    "price": "R999.99",
+                    "describtion": "Nike NBA Shorts",
                     "amount": 999.99,
                     "image": "https://i.postimg.cc/yYBSG95V/milwaukee-bucks-icon-edition-nba-swingman-shorts-SZq-PVC-removebg-preview-1.png"
                 },
                 {
                     "id": 4,
-                    "make": "R499.99",
-                    "spec": "OKC Edition NBA Cap",
+                    "price": "R499.99",
+                    "describtion": "OKC Edition NBA Cap",
                     "amount": 499.99,
                     "image": "https://i.postimg.cc/1XfLkVhR/nba-jersey-los-angeles-lakers-socks-removebg-preview.png"
                 },
                 {
                     "id": 5,
-                    "make": "R449.99",
-                    "spec": "Swoosh Cap",
+                    "price": "R449.99",
+                    "describtion": "Swoosh Cap",
                     "amount": 449.99,
                     "image": "https://i.postimg.cc/66DNXKf5/oklahoma-city-thunder-city-edition-nba-swoosh-flex-cap-fp8mm3-removebg-preview.png"
                 }
@@ -54,9 +54,9 @@ function displayProducts() {
             <div class="card" style="background-color: rgba(255, 255, 255, 0.4);">
                 <img src="${product.image}" class="card-img-top" alt="${product.id}">
                 <div class="card-body">
-                    <p class="card-text"> ${product.spec}</p>
-                    <h5 class="card-title">${product.make}</h5>
-                    <button class="btn btn-primary">Shop now</button> <button class="btn btn-primary">Cart</button>
+                    <p class="card-text"> ${product.describtion}</p>
+                    <h5 class="card-title">${product.price}</h5>
+                    <button class="btn btn-primary">Cart</button>
                 </div>
             </div>`
         });
@@ -108,8 +108,8 @@ function displaySkills(data) {
             <div class="card" style="background-color: rgba(255, 255, 255, 0.4);">
                 <img src="${product.image}" class="card-img-top" width="250" height="300" alt="${product.id}">
                 <div class="card-body">
-                    <p class="card-text"> ${product.spec}</p>
-                    <h5 class="card-title">${product.make}</h5>
+                    <p class="card-text"> ${product.describtion}</p>
+                    <h5 class="card-title">${product.price}</h5>
                     <button class="btn btn-primary">Shop now</button> <button class="btn btn-primary" onclick= addToCart($)>Cart</button>
                 </div>
             </div>`

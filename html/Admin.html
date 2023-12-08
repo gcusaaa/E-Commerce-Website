@@ -8,7 +8,7 @@
     <title>Sportify</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
         </div>
     </nav>
 
-    <main class="main-admin vh-100">
+    <!-- <main class="main-admin vh-100">
         <div class="row">
             <div class="col-">
                 <span>ABOUT</span>
@@ -48,13 +48,87 @@
                 <p>General information about Chelsea FC, club partners, club personnel and club ambassadors as well as details on Chelsea's commitment to equality.</p>
             </div>
         </div>
-    </main>
+    </main> -->
+
+    <h1>Admin Page</h1>
+    <table class="table-container">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="adminBody"></tbody>
+    </table>
+
+    <!-- <button onclick="addPros()">Add Product</button> -->
+    
+    <!-- Button trigger modal -->
+<button type="button" onclick="addPros()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add Product
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md">
+            <label for="validationCustom01" class="form-label">Add Id</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md">
+            <label for="validationCustom02" class="form-label">Add Price</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md">
+            <label for="validationCustom03" class="form-label">Add Description</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md">
+            <label for="validationCustom05" class="form-label">Add Picture</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <footer class="bg-body-tertiary text-center text-lg-start">
         <div class="text-center p-3">
           © 2023 Copyright:
         </div>
     </footer>
-    <Script src="./script/code.js"></Script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <Script src="../script/Admin.js"></Script>
 </body>
 </html>
