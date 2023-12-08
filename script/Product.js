@@ -28,7 +28,7 @@ JSON.parse( localStorage.getItem('products')):
                 {
                     "id": 4,
                     "price": "R499.99",
-                    "describtion": "OKC Edition NBA Cap",
+                    "describtion": "OKC Edition NBA Socks",
                     "amount": 499.99,
                     "image": "https://i.postimg.cc/1XfLkVhR/nba-jersey-los-angeles-lakers-socks-removebg-preview.png"
                 },

@@ -12,6 +12,18 @@ body {
 .navbar {
   background: #404040;
 }
+.home-text {
+  width: 450px;
+  height: 420px;
+  flex-shrink: 0;
+  color: #ffffff;
+  font-size: 70px;
+}
+.home-btn {
+  padding: 10px;
+  border-radius: 10px;
+  background: #404040;
+}
 .home-image {
     background-image: url("https://i.postimg.cc/t42xJZVt/Screenshot-2023-12-04-152523.png");
     height: 100vh;
@@ -29,6 +41,12 @@ body {
     .card {
         width: 18rem;
     }
+.Contact-text {
+  font-size: 60px;
+}
+.spanify {
+  color: #8f3401;
+}
 .text-center {
     background-image: url('https://i.postimg.cc/P5yNVHxS/Benefits-of-Basketball-Court-Covers-1024x683.png');
 }
@@ -153,6 +171,14 @@ body {
     height: 35px;
     top: 92px;
     left: 0;
+    object-fit: cover;
+  }
+  .desktop .forthefight {
+    position: absolute;
+    width: 96px;
+    height: 44px;
+    top: 89px;
+    left: 180px;
     object-fit: cover;
   }
   
