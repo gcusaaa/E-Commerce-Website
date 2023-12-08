@@ -105,10 +105,5 @@ function deleteProduct(productId) {
     disPros();
 }
 
-// this is the function to edit my products
-function editPros(productId) {
-    alert(`Edit product with ID ${productId}`);
-    // disPros();
-}
-disPros();
+
 
