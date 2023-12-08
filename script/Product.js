@@ -110,7 +110,7 @@ function displaySkills(data) {
                 <div class="card-body">
                     <p class="card-text"> ${product.describtion}</p>
                     <h5 class="card-title">${product.price}</h5>
-                    <button class="btn btn-primary">Shop now</button> <button class="btn btn-primary" onclick= addToCart($)>Cart</button>
+                    <button class="btn btn-primary" onclick='addToCart(${product.id})'>Cart</button>
                 </div>
             </div>`
         });
@@ -150,6 +150,18 @@ sorting.addEventListener('click', () => {
     }
 });
 
+
 let addCart = [];
+
+function addToCart(cartItem) {
+    let addItem = products.find((products => product.id === cartItem ));
+
+    if (selectedProduct) {
+        addCart.push(cartItem)
+    }
+    
+    localStorage.setItem('cart', JSON.stringify(addCart))
+}
+
 
 
