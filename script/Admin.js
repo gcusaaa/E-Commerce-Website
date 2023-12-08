@@ -45,8 +45,9 @@ JSON.parse( localStorage.getItem('products')):
                 }
             ]
             )
-    );  
-     
+    );
+
+
 function displayProducts() {
     productsWrapper.innerHTML = "";
     if (products) {
@@ -71,10 +72,10 @@ function disPros() {
         adPros.forEach(product => {
             let row = document.createElement('tr');
             row.innerHTML = `
-            <td>${product.id}</td>
-            <td>${product.price}</td>
-            <td><img src="${product.image}" width="100"></td>
-            <td>${product.description}</td>
+            <td class="productIdentity">${product.id}</td>
+            <td class="productPrice">${product.price}</td>
+            <td class="productImage"><img src="${product.image}" width="100"></td>
+            <td class="productDescribtion">${product.description}</td>
             <td><button onclick="deleteProduct(${product.id})">Delete</button>
             <button onclick="editProduct(${product.id})">Edit</button></td>`;
 
@@ -110,5 +111,4 @@ function editPros(productId) {
     // disPros();
 }
 disPros();
-
 

@@ -8,7 +8,7 @@
     <title>Sportify</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <img src="https://i.postimg.cc/SR9ggrx0/Screenshot-2023-12-08-131709-removebg-preview.png" alt="" width="50">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,26 @@
     </nav>
 
     <main class="main-checkout vh-100">
-        <div class="row">
-            <div class="col-">
-                <span>ABOUT</span>
-                <span>SPORT</span><span>IFY</span>
-            </div>
-            <div class="col">
-                <p>General information about Chelsea FC, club partners, club personnel and club ambassadors as well as details on Chelsea's commitment to equality.</p>
-            </div>
-        </div>
+      <h1 class="display-2">CHECKOUT<span class="spanify">PAGE</span></h1>
+      <table class="table-container">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Price</th>
+                  <th>Description</th>
+                  <th>Amount</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody id="cartBody"></tbody>
+      </table>
     </main>
+
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
 
     <footer class="bg-body-tertiary text-center text-lg-start">
         <div class="text-center p-3">

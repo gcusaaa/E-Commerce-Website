@@ -8,7 +8,7 @@
     <title>Sportify</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <img src="https://i.postimg.cc/SR9ggrx0/Screenshot-2023-12-08-131709-removebg-preview.png" alt="" width="50">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +38,12 @@
         </div>
     </nav>
 
+
+    <form action="https://formspree.io/f/mgejgybq" method="post">
     <Section id="getintouch">
-      <div class="container-fluid text-white">
-         <div class="Contact-text">
-           <p class="display-2"><span class="text-wrapper">CONT</span><span class="spanify">ACT</span></p>
+        <div class="container-fluid text-white">
+          <div class="Contact-text">
+            <p class="display-2"><span class="text-wrapper">CONT</span><span class="spanify">ACT</span></p>
           </div>
           <div class="row vh-100 justify-content-center align-content-center">
             <div class="col-0 p-0 my">
@@ -52,18 +54,18 @@
                       <div class="container-fluid">
                         <h5 class="mb-2">Name</h5>
                         <div class="form-floating">
-                          <input type="email" id="email" class="form-control" placeholder="e.g gcusaaa@gmail.com" required>
-                          <label class="text-body-secondary" for="email" rows="3">e.g Sipho Gcusa</label>
+                          <input type="text" name="fname" id="text" class="form-control" placeholder="name" required>
+                          <label class="text-body-secondary" for="name" rows="3">e.g Sipho Gcusa</label>
                         </div>
                         <h5 class="Email">E-mail</h5>
                         <div class="form-floating">
-                          <input type="email" id="email" class="form-control" placeholder="e.g gcusaaa@gmail.com" required>
+                          <input type="email" name="fname" id="email" class="form-control" placeholder="e.g gcusaaa@gmail.com" required>
                           <label class="text-body-secondary" for="email">e.g gcusaaa@gmail.com</label>
                         </div>
                         <h5>Query</h5>
                         <div class="form-floating">
-                          <input type="email" id="email" class="form-control py-5" placeholder="text" required>
-                          <label class="text-body-secondary" for="email">Ask your question</label>
+                          <input type="text" name="fname" id="message" class="form-control py-5" placeholder="message" required>
+                          <label class="text-body-secondary" for="message">Ask your question</label>
                           <button class="mt-2 border-0 bg-dark text-danger p-2">submit</button>
                         </div>
                       </div>
@@ -78,7 +80,7 @@
                             <i class="bi bi-envelope-at-fill"></i>
                             <h6><img src="https://i.postimg.cc/jdC97Hbh/email.png" alt="" width="20"> E-mail</h6>
                             <p>gcusaaa@gmail.com</p>
-                        </div>
+                          </div>
                         <div class="col-8 p-3 card my-4 mx-5">
                             <i class="bi bi-telephone-fill"></i>
                             <h6><img src="https://i.postimg.cc/VL6yFyjn/pin.png" alt="" width="20"> Location</h6>
@@ -87,12 +89,13 @@
                     </div>
                   </div>
                 </div>
-            </div>
+              </div>
               <div class="col-2">
               </div>
-          </div>
+            </div>
       </div>
     </Section>
+  </form>
     
     <footer class="bg-body-tertiary text-center text-lg-start mb-0">
         <div class="text-center p-3">
@@ -100,7 +103,7 @@
         </div>
     </footer>
 
-
+    
     <Script src="./script/code.js"></Script>
 </body>
 </html>
